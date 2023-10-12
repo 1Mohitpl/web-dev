@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title> Build Form</title>
+</head>
+<body>
+    <form>
+        <h1 >Event Registration</h1>
+        <label for="name" > Name : </label>
+        <input type="text" name = "Name" id="Name" >
+
+
+        <label for="Age"> Age:</label>
+        <input type="text" name=" Age" id=" Age">
+      
+        <label for = "Address" >Address:</label>
+        <input type="text" name="Address" id="Address">
+         
+         <label for=" Email id ">Email id :</label>
+         <input type="text" name = " Email id" id=" Email id ">
+         <br>
+         <br>
+        <label for="Phone" >Enter your Phone number : </label>
+         <input type="tel" name = "Phone" id="Phone">
+
+
+        <label for=" occupation type"> occupation: </label> 
+        <select name = "occupation type" id="occupation type">
+               <option value="student" > student</option>
+               <option value="Professional">Professional</option>
+
+        </select>
+        <br>
+        <br>
+
+
+        <label for=" Gender">Gender : </label>
+        <select name = "Gender" id="Gender">
+            <option value="male" > male</option>
+            <option value="Female">Female</option>
+        </select> 
+        
+        <label for="file upload">Resume</label>
+        <input type="file" name="file" id="file upload">
+        <br>
+        <br>
+        
+        <label for="counter">Experince in years</label>
+        <input type="number" name="counter" id="counter" min="0" max="20">
+        <br/>
+        <br/>
+
+        <fieldset>
+            <legend> Area of interest</legend>
+            <label for="Artifical intelligance">Artifical intelligance</label>
+            <input type="checkbox" name="Artifical intelligance" id="Artifical intelligance">
+            <br>
+
+            <label for="Machine learning"> Machine learning</label>
+            <input type="checkbox" name="Machine learning" id="Machine learning">
+            <br>
+
+            <label for=" Cloud computing">Cloud computing </label>
+            <input type="checkbox" name ="Cloud computing" id=" Cloud computing">
+            <br/>
+
+            <label for="web development">Web development</label>
+            <input type="checkbox" name=" web development" id="Web development">
+            <br>
+        </fieldset> 
+        <br>
+        <label for="Highest Qualifi">Highest Qualification</label>
+        <select name="Highest Qualification" id="Highest Qualification">
+            <option value="Bachelor Deggre"> Bachelor Deggre</option>
+            <option value="Post Graduate">Post Graduate</option>
+            <option value="phd">phd</option>             
+        </select>
+        <br>
+
+        <label for="language specifiy">language specifiy</label>
+        
+        <input type="checkbox" name=" C++" id="C++">
+        <label for=" c++">C++</label>
+        <input type="checkbox" name=" jave" id="Java">
+        <label for="jave">Java</label>
+        <input type="checkbox" name=" python" id="python">    
+        <label for="python">python</label>        
+        </select>
+        <br>
+        <label for="Textarea">Any Suggestion</label>
+        <br>
+        <textarea name="Textarea" id="textarea" cols="30" role="40"></textarea>
+        <br>
+        <input type="submit" id=" submit" name="submit" value=" submit">
+    </form>
+</body>
+</html>
